@@ -1,7 +1,21 @@
 PODS:
+  - Alamofire (4.9.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - MBProgressHUD (1.2.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - WXBase (0.1.0)
+  - SDWebImage/Core (5.9.1)
+  - SnapKit (4.2.0)
+  - THLabel (1.4.10)
+  - Toast-Swift (5.0.1)
+  - WXBase (0.1.0):
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SDWebImage/Core
+    - SnapKit
+    - THLabel
+    - Toast-Swift (~> 5.0.1)
 
 DEPENDENCIES:
   - Nimble (~> 7.0)
@@ -10,17 +24,31 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
     - Nimble
     - Quick
+    - SDWebImage
+    - SnapKit
+    - THLabel
+    - Toast-Swift
 
 EXTERNAL SOURCES:
   WXBase:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  WXBase: e556a807e8b1dffa0a4fa15815c0fff36b63cb32
+  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  THLabel: 3fc93a0f01f74e4eec7574df2819e576d57150b3
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WXBase: b920b4c0bd051cad48e08218f5878d30988a23a2
 
 PODFILE CHECKSUM: b2a184c9e23e71d0e0c1ab9a41ba8675b7589f7a
 
